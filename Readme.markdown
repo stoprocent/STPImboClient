@@ -11,7 +11,7 @@ or
 Use CocoaPods
 
 ```ruby
-pod 'STPImboClient', '~> 0.1.0'  
+pod 'STPImboClient', '~> 0.1.1'  
 ```
 
 STPImbo requires ARC.
