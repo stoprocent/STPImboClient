@@ -28,7 +28,6 @@
                                        @"http://server03",
                                        @"http://server04"]];
     
-    [[[STPImbo client] imageWithID:@"IMAGE_ID"] ]
     NSURL *url = [[[[[[[[STPImbo client] imageWithID:@"IMAGE_ID"] resize:CGSizeMake(2000, 0)] crop:CGRectMake(120,12,640, 960)] compress:100] desaturate] jpg] url];
 
     self.imageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
