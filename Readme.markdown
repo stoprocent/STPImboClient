@@ -84,5 +84,5 @@ STPImboImage has the following class methods to work with images:
 - (NSURL*)url;
 ```
 
-Easy as that. (See [STPImbo.h](https://github.com/stoprocent/STPImboClient/blob/master/STPImboClient/STPImbo/STPImbo.h for all of the 
+Easy as that. (See [STPImbo.h](https://github.com/stoprocent/STPImboClient/blob/master/STPImboClient/STPImbo/STPImbo.h) for all of the 
 methods.)
