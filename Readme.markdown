@@ -4,9 +4,18 @@ STPImbo is a simple helper to create image URLs for [imbo](https://github.com/im
 
 ## Adding to Your Project
 
-1. Add `STPImbo.h` and `STPImbo.m` to your project.
+Add `STPImbo.h` and `STPImbo.m` to your project.
+
+or
+
+Use CocoaPods
+
+```ruby
+pod 'STPImboClient', '~> 0.1.0'  
+```
 
 STPImbo requires ARC.
+
 
 ## Working with the STPImbo
 
