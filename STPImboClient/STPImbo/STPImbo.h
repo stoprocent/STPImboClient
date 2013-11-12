@@ -39,7 +39,7 @@ typedef NS_ENUM(NSInteger, STPImboImageExtension) {
 
 @property (nonatomic, strong, readwrite) NSString *publicKey;
 @property (nonatomic, strong, readwrite) NSString *privateKey;
-@property (nonatomic, assign, readwrite) NSArray *serversList;
+@property (nonatomic, strong, readwrite) NSArray *serversList;
 
 + (STPImbo*)client;
 
